@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .projects img {
+            width: 100%;
+            height: auto;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>IT Student | Aspiring Software Developer | Cyber Security Penetration Tester</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+ <div style="text-align: center;">
+        <img src="profile.jpg" alt="" style="width: 150px; height: 150px; border-radius: 50%; border: 2px solid #4CAF50; margin-bottom: 10px;">
+    </div>
+    <p>Hi, I'm Joshua Concepto Rolluqui, an IT student specializing in software development and problem-solving. I have a passion for learning and building innovative solutions.</p>
+    <h3>Skills</h3>
+    <ul>
+        <li>Programming Languages: Python, Java, C#</li>
+        <li>Web Development: HTML, CSS, JavaScript, React</li>
+        <li>Database Management: MySQL</li>
+        <li>Tools & Platforms: Git, AWS, Godaddy</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div>
+        <h3>Project 1: Human Resource Information System</h3>
+        <p>A responsive portfolio website built using HTML, CSS, and JavaScript.</p>
+        <img src="jask.jpg" alt="Expense Tracker">
+        <p><a href="http://5ky.d2b.mytemp.website/login.php">Click Here!!! </a> This is My Capstone Project.
+ You can Login bye using my account.<br>You must have internet to access it!!!	 <br> Username: joshua <br>Password: 12345</p>
+    </div>
+    
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2024 Rolluqui | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
